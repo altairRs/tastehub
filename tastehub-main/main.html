@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TasteHub</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <!-- js для гамбургера меню -->
+</head>
+
+<body class="body-background">
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-#f4f4f4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="main.html" style="color: #99582A;"><b>TasteHub</b></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="main.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="recipe_list.html">RECIPE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="addrecipe.html">CREATE RECIPE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profile.html">PROFILE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">LOG IN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="register.html">SIGN UP</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main class="main-content">
+    <section class="section-part bg-cover text-center text-dark d-flex align-items-center justify-content-center"
+             style="background-image: url('фон.png'); height: 450px; background-attachment: fixed;">
+        <div class="bg-opacity-25 p-5">
+            <h2 class="fs-3 fs-md-2 fs-lg-1">Welcome to our cooking-loving family!</h2>
+            <p class="fs-5">Here you can find recipes to suit your taste :)</p>
+            <p>If you have the desire and some free time, feel free to share your favorite recipes with others.
+                <br>You'll receive a huge THANK YOU from everyone!</p>
+        </div>
+    </section>
+
+    <section class="section-part p-3 p-lg-5">
+        <h2 class="fs-4 fs-lg-3">--- What is TasteHub about? ---</h2>
+        <p class="fs-5">TasteHub is a place where food lovers from around the world come together to share their favorite dishes. Whether you're a
+            seasoned chef or just starting your culinary journey, you'll find recipes that inspire and delight.</p>
+    </section>
+
+    <figure class="recipe-figure">
+        <img src="https://images.pexels.com/photos/7239447/pexels-photo-7239447.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="Delicious food" class="recipe-image m-2" style="width: 150px;">
+        <img src="https://images.pexels.com/photos/323682/pexels-photo-323682.jpeg"
+             alt="Delicious food" class="recipe-image m-2" style="width: 150px;">
+        <img src="https://images.pexels.com/photos/6544380/pexels-photo-6544380.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="Delicious food" class="recipe-image m-2" style="width: 150px;">
+        <img src="https://images.pexels.com/photos/4110008/pexels-photo-4110008.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="Delicious food" class="recipe-image m-2" style="width: 150px;">
+        <img src="https://images.pexels.com/photos/842571/pexels-photo-842571.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+             alt="Delicious food" class="recipe-image m-2" style="width: 150px;">
+        <figcaption class="recipe-caption mt-3">You can easily cook the same beautiful dishes with the help of our recipes</figcaption>
+    </figure>
+
+    <hr class="divider">
+    <blockquote class="blockquote text-center p-3 p-lg-5">
+        <strong>"Cooking is like love. It should be entered into with abandon or not at all." - Harriet Van Hornes</strong>
+    </blockquote>
+    <hr class="divider">
+
+    <section class="section-part p-3 p-lg-5">
+        <h2 class="fs-4 fs-lg-3">--- How It Works ---</h2>
+        <ol class="how-it-works-list fs-5">
+            <li>Browse or search for recipes.</li>
+            <li>Save your favorites to your personal recipe book.</li>
+            <li>Share your culinary creations with our community.</li>
+        </ol>
+    </section>
+
+    <section class="section-part p-3 p-lg-5">
+        <h2 class="fs-4 fs-lg-3">--- About Us ---</h2>
+        <p class="fs-5">We are a small team of food enthusiasts who believe in the power of sharing recipes and bringing people together through food.</p>
+    </section>
+
+    <section class="section-part p-3 p-lg-5">
+        <h2 class="fs-4 fs-lg-3">Start Your Culinary Adventure!</h2>
+        <p class="fs-5"><a href="recipe_list.html" class="cta-link">Explore Others Recipes</a> | <a href="addrecipe.html" class="cta-link">Create Yours Recipes</a></p>
+    </section>
+</main>
+
+<footer class="footer bg-dark text-light py-4">
+    <div class="container text-center">
+        <h5>About Us</h5>
+        <p>SE-2301: Temirbay Assem, Sultanbekov Anuar, Li Maxim</p>
+        <p>Assignment 3 - 08/09/2024</p>
+        <div class="mt-4">
+            <p>&copy; 2024 TasteHub. All Rights Reserved.</p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

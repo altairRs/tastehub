@@ -1,0 +1,143 @@
+/*
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+*/
+
+.body-background {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 10px;
+    font-size: 13px;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.back-button {
+    padding: 10px 20px;
+    background-color: #99582A;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #99582A;
+}
+
+.header {
+    background-color: #f4f4f4;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.site-title {
+    color: #99582A;
+    margin: 0;
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.nav-item {
+    display: inline;
+    margin: 0 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #99582A;
+}
+
+.nav-link:hover {
+    color: #C9510C;
+}
+
+.search-container, .filter-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-label, .filter-label {
+    font-size: 16px;
+    color: #99582A;
+}
+
+.search-bar, .category-filter {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 2px solid #C9510C;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.recipes-section {
+    text-align: center;
+}
+
+.recipe-list {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.recipe-item {
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.recipe-link {
+    text-decoration: none;
+    color: #99582A;
+    font-weight: bold;
+}
+
+.recipe-link:hover {
+    color: #C9510C;
+}
+
+.recipe-image {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.2s ease;
+}
+
+.recipe-image:hover {
+    transform: scale(1.02);
+}
+
+
+:focus {
+    outline: 3px solid #C9510C;
+}

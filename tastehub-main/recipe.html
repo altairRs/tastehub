@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TasteHub - Recipe</title>
+  <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="stylesAnuar.css">
+</head>
+
+<body>
+<header class="header">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="main.html" style="margin-left: 15px; color: #99582A;"><b>TasteHub</b></a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="main.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipe_list.html">RECIPE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="addrecipe.html">CREATE RECIPE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="profile.html">PROFILE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="login.html">LOG IN</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register.html">SIGN UP</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
+<main>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-12">
+      <img src="https://images.pexels.com/photos/4062274/pexels-photo-4062274.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="img-fluid rounded" alt="Delicious pasta">
+    </div>
+    <div class="col-lg-4 col-md-12">
+      <h1>Delicius soup</h1>
+      <p>Tom Yam is an extremely popular dish in Thailand. It can be found at every street corner and every restaurant in the country. This dish has become famous because of its savoury and spicy taste as well as its popularity among tourists who visit Thailand. Tom yam means "hot" in Thai. Tom yam soup has many variations in Thailand – including clear soup or mixed with coconut milk for added fragrance. The most common ingredients are lemongrass, kaffir lime leaves, tomato, squid and prawns. Tom Yam is an incredibly flexible dish that can be eaten as a meal on its own or as an appetiser. It can also be served in a bowl with noodle or an accompaniment of a steamed jasmine rice.</p>
+    </div>
+  </div>
+</div>
+<div class="d-flex justify-content-center">
+  <div class="card mb-3" style="margin: 20px; width: 18rem;">
+    <div class="card-header" style="background-color: #BB9457">
+      Ingredients
+    </div>
+    <div class="card-body" style="background-color: #FFE6A7">
+      <ul>
+        <li>Water 1 L</li>
+        <li>Butter</li>
+        <li>Ketchap</li>
+        <li>Spoon</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-5">
+  <div class="card mb-4">
+    <div class="card-header" style="background-color: #6E5494; color: white;">
+      Add a Comment
+    </div>
+
+    <div class="card-body">
+      <form>
+        <div class="form-floating mb-3">
+          <input type="text" class="form-control" id="name" placeholder="Your Name">
+          <label for="name">Your Name</label>
+        </div>
+        <div class="form-floating mb-3">
+          <textarea class="form-control" placeholder="Leave a comment here" id="comment" style="height: 100px"></textarea>
+          <label for="comment">Your Comment</label>
+        </div>
+        <button type="submit" class="btn btn-primary" style="background-color: #6CC644; border: none;">Submit</button>
+      </form>
+    </div>
+  </div>
+
+
+  <div class="comment-list">
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Maxim Li <small class="text-muted">- 2 hours ago</small></h5>
+        <p class="card-text">This recipe was amazing! My family loved it!</p>
+      </div>
+    </div>
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Temirbay Asem <small class="text-muted">- 1 day ago</small></h5>
+        <p class="card-text">I found it a little too salty, but it was still delicious. Thanks for sharing!</p>
+      </div>
+    </div>
+  </div>
+</div>
+</main>
+<footer class="footer bg-dark text-light py-4" style="position: relative;">
+  <div class="container text-center">
+    <h5>About Us</h5>
+    <p>SE-2301: Temirbay Assem, Sultanbekov Anuar, Li Maxim</p>
+    <p>Assignment 3 - 08/09/2024</p>
+    <div class="mt-4">
+      <p>&copy; 2024 TasteHub. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
